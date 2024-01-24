@@ -4,6 +4,11 @@
 	"readme": "./README.md",
 	"license": "MIT",
 	"type": "module",
+	"scripts": {
+		"start": "bun run src/index.ts",
+		"start:watch": "bun --watch run src/index.ts",
+		"start:smol": "bun --smol run src/index.ts"
+	},
 	"devDependencies": {
 		"@types/bun": "latest",
 		"typescript": "latest"
