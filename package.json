@@ -1,0 +1,11 @@
+{
+	"name": "bun-template",
+	"module": "./src/index.ts",
+	"readme": "./README.md",
+	"license": "MIT",
+	"type": "module",
+	"devDependencies": {
+		"@types/bun": "latest",
+		"typescript": "latest"
+	}
+}
