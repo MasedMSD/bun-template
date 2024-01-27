@@ -4,12 +4,16 @@
 	"readme": "./README.md",
 	"license": "MIT",
 	"type": "module",
+	"prettier": "./prettierrc.json",
+	"private": true,
 	"scripts": {
 		"start": "bun run src/index.ts",
 		"start:watch": "bun --watch run src/index.ts",
-		"start:smol": "bun --smol run src/index.ts"
+		"start:smol": "bun --smol run src/index.ts",
+		"format": "biome format --write src/**"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "^1.5.3",
 		"@types/bun": "latest",
 		"typescript": "latest"
 	}
