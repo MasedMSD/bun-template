@@ -2,13 +2,10 @@
 	"editor.formatOnSave": true,
 	"editor.insertSpaces": false,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports.biome": true
+		"source.organizeImports.biome": "always"
 	},
-
 	"typescript.tsdk": "node_modules/typescript/lib",
-
 	"prettier.enable": false,
-
 	"files.exclude": {
 		"**/node_modules": true,
 		"**/bun.lockb": true
@@ -17,6 +14,18 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[js]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[jsx]": {
